@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Árboles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://example.com/buho.png" alt="Búho" class="logo">
+        <h1>Bienvenido a la aplicación de Árboles (Grupo 1469)</h1>
+    </header>
+    
+    <main>
+        <div class="question-container">
+            <p>¿Cuál es el árbol más grande del mundo?</p>
+            <form id="quizForm">
+                <label>
+                    <input type="radio" name="answer" value="A"> A) Roble
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="B"> B) Secuoya
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="C"> C) Pino
+                </label><br>
+                <label>
+                    <input type="radio" name="answer" value="D"> D) Abeto
+                </label><br><br>
+                <button type="button" onclick="checkAnswer()">Enviar Respuesta</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Fue un placer atenderte</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
